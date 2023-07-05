@@ -4,7 +4,7 @@
   "private": true,
   "description": "Single Page Apps for GitHub Pages",
   "scripts": {
-    "start": "webpack-dev-server --host 0.0.0.0 --disable-host-check --open",
+    "start": "webpack-dev-server --host 0.0.0.0 --disable-host-check --open-page Pizza-shop",
     "build": "webpack -p"
   },
   "repository": {
@@ -15,12 +15,12 @@
   "license": "MIT",
   "dependencies": {
     "@radix-ui/react-icons": "^1.0.3",
-    "@stitches/react": "^0.1.9",
+    "@stitches/react": "^1.2.8",
     "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-interactive": "^1.1.0",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.14.1",
     "use-dark-mode": "^2.3.1"
   },
   "devDependencies": {
@@ -57,5 +57,10 @@
   },
   "lint-staged": {
     "src/**/*": "prettier --write --ignore-unknown"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/rafgraph/spa-github-pages/issues"
+  },
+  "homepage": "https://github.com/rafgraph/spa-github-pages#readme",
+  "main": "webpack.config.js"
 }
