@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafgraph/spa-github-pages.git"
+    "url": "git+https://kuzminanton1.github.io/Pizza-shop/"
   },
   "author": "Rafael Pedicini <rafael@rafgraph.dev>",
   "license": "MIT",
@@ -59,8 +59,8 @@
     "src/**/*": "prettier --write --ignore-unknown"
   },
   "bugs": {
-    "url": "https://github.com/rafgraph/spa-github-pages/issues"
+    "url": "https://kuzminanton1.github.io/Pizza-shop/issues"
   },
-  "homepage": "https://github.com/rafgraph/spa-github-pages#readme",
+  "homepage": "https://kuzminanton1.github.io/Pizza-shop/",
   "main": "webpack.config.js"
 }
